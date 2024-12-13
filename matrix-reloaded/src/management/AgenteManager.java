@@ -41,9 +41,9 @@ public class AgenteManager {
             System.out.println("\n=== Menú Agentes ===");
             System.out.println("1. Registrar Agente");
             System.out.println("2. Mostrar Agentes");
-            System.out.println("3. Salir");
+            System.out.println("3. Volver al menú principal");
             int opcion = ConsoleUtils.leerEntero("Seleccione una opción: ");
-            ConsoleUtils.limpiarBuffer(); // Consumir cualquier salto de línea residual
+            ConsoleUtils.limpiarBuffer(); 
 
             switch (opcion) {
                 case 1 -> registrarAgente();

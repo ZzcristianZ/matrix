@@ -42,7 +42,7 @@ public class AnomaliaManager {
             System.out.println("\n=== Menú Anomalías ===");
             System.out.println("1. Registrar Anomalía");
             System.out.println("2. Mostrar Anomalías");
-            System.out.println("3. Salir");
+            System.out.println("3. Volver al menú principal");
             int opcion = ConsoleUtils.leerEntero("Seleccione una opción: ");
             ConsoleUtils.limpiarBuffer();
 

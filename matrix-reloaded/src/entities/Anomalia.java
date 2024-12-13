@@ -8,6 +8,7 @@ public class Anomalia extends Entidad {
         super(id, nombre);
         this.nivelSeveridad = nivelSeveridad;
         this.ubicacion = ubicacion;
+        Agente.registrarAnomalia();
     }
 
     public int getNivelSeveridad() {
